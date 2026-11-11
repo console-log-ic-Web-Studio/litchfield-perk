@@ -3,6 +3,7 @@ import { Button, HeroShell } from "../ui";
 import analytics from "../../utils/analytics";
 import CONTENT from "../../data/content.json";
 import logoImage from "../../assets/logo-512.webp";
+import { STORE_URL as SHOPIFY_STORE_URL } from "../../constants/business";
 import {
   trackAppStoreClick,
   getAppStoreUrlForDevice,
@@ -12,8 +13,6 @@ import {
 
 const HERO_LOGO_ALT =
   "Litchfield Perk cafe logo - a circular coffee shop emblem with coffee cup icon and green branding, representing our friendly neighborhood coffee experience";
-
-const SHOPIFY_STORE_URL = "https://litchfield-perk-coffee-co.myshopify.com/";
 
 export default function HeroSection() {
   const [showAppChooser, setShowAppChooser] = useState(false);

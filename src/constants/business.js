@@ -98,4 +98,4 @@ export const PHONE_NUMBER = BUSINESS_INFO.contact.phone;
 export const INSTAGRAM_HANDLE = BUSINESS_INFO.social.instagram.handle;
 export const INSTAGRAM_URL = BUSINESS_INFO.social.instagram.url;
 
-export const STORE_URL = "https://litchfield-perk-coffee-co.myshopify.com/";
+export const STORE_URL = "https://shop.litchfieldperk.com/";
